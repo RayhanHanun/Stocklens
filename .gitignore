@@ -1,0 +1,17 @@
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+
+# --- Data & Logs ---
+# Kita mengabaikan semua file CSV karena mereka besar dan berubah tiap hari
+stock-analyzer/data/idx/
+*.csv
+*.log
+
+# --- EXCEPTION ---
+# Kita WAJIB menyimpan file ini karena ini adalah nyawa untuk website Anda
+!stock-analyzer/data/signals.json
+!stock-analyzer/output/backtest_results.csv

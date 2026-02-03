@@ -2,13 +2,16 @@ name: Daily Stock Analysis
 
 on:
   schedule:
-    # 18:00 WIB (11:00 UTC)
+    # 18:00 WIB (11:00 UTC) - Sudah Benar
     - cron: '0 11 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Agar bisa dijalankan manual
 
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    # PENTING: Wajib ada permission write agar bot bisa push file signals.json
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -23,11 +26,11 @@ jobs:
         working-directory: stock-analyzer
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          # Gunakan ini jika ada file requirements.txt
+          pip install pandas yfinance 
 
-      - name: Download Latest Data
-        working-directory: stock-analyzer
-        run: python scripts/download_yfinance.py
+      # CATATAN: Langkah 'Download Latest Data' dihapus karena sudah 
+      # dipanggil di dalam run_daily.py (supaya tidak kerja dua kali)
 
       - name: Run Daily Analysis
         working-directory: stock-analyzer
@@ -37,6 +40,12 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add stock-analyzer/data/idx/*.csv stock-analyzer/output/signals.json
+          
+          # SARAN: JANGAN git add file .csv (idx/*.csv) ke GitHub. 
+          # File CSV sangat besar dan akan membuat repo Anda lambat.
+          # Cukup simpan signals.json yang dibutuhkan website.
+          
+          git add stock-analyzer/data/signals.json
+          
           git commit -m "Auto-update: Daily Signals $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
