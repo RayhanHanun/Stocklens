@@ -4,25 +4,14 @@ __pycache__/
 *$py.class
 .env
 venv/
-.python-version
 
-# --- IDE & OS Junk ---
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# --- Data & Logs ---
-# Mengabaikan folder data mentah karena isinya ratusan file CSV yang berat
+# --- Data Mentah (Abaikan agar Repo Ringan) ---
 stock-analyzer/data/idx/
 stock-analyzer/data/raw/
+*.csv
 *.log
 
-# Mengabaikan semua file CSV secara global agar tidak mengotori repository
-*.csv
-
-# --- EXCEPTIONS (Wajib Disimpan) ---
-# Kita memberikan pengecualian agar file-file ini tetap terunggah ke GitHub
-# karena file ini adalah "nyawa" atau data utama untuk website Anda.
+# --- EXCEPTION (Wajib Disimpan) ---
+# Menggunakan path 'output' sesuai struktur folder asli Anda
 !stock-analyzer/output/signals.json
 !stock-analyzer/output/backtest_results.csv
