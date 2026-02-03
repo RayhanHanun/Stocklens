@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-02-02T22:12:49.340497Z",
+  "market": "IDX / IHSG",
+  "data_source": "yahoo-finance",
+  "results": [
+    {
+      "ticker": "BBRI",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "BBCA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "BMRI",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "BBNI",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "INPC",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "BBYB",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "ANTM",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "ADRO",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "PTBA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "ITMG",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "BUMI",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "DEWA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "ARCI",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "CUAN",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "MDKA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "EMTK",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "SCMA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "BABY",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "IOTF",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "ASII",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "PTRO",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "ZATA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "OASA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "SURI",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "NAIK",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "CDIA",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    },
+    {
+      "ticker": "IRSX",
+      "status": "NO_TRADE",
+      "reason": "No data"
+    }
+  ]
+}
