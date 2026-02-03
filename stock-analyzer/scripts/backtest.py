@@ -26,11 +26,10 @@ def run_backtest(mode="SWING"):
             continue
             
         df = pd.read_csv(file_path)
-        # REVISI: Mulai dari baris 150 karena engine baru butuh lebih sedikit data (100 bar)
+        # Mulai dari baris 150 agar indikator engine (EMA, dll) sudah stabil
         if len(df) < 150: continue
 
         # Simulasi berjalan (Moving Window)
-        # Menggunakan step 1 agar setiap hari dicek
         for i in range(150, len(df)):
             current_data = df.iloc[:i+1].copy()
             
@@ -38,18 +37,24 @@ def run_backtest(mode="SWING"):
             # Kita set market_bullish=True untuk backtest murni teknikal saham
             signal = analyze_ticker(current_data, ticker, mode, market_bullish=True)
 
-            # REVISI: Logic untuk menangkap 'BUY' dan 'STRONG BUY'
-            if "BUY" in signal.get("action", ""):
+            action = signal.get("action", "DONT BUY")
+
+            # --- PERBAIKAN BUG DI SINI ---
+            # Pastikan action adalah BUY atau STRONG BUY secara eksplisit
+            if action in ["BUY", "STRONG BUY"]:
+                
                 entry_p = signal['entry']
                 sl = signal['sl']
                 tp = signal['tp']
-                score = signal.get('score', 0) # Ambil skor
+                score = signal.get('score', 0)
                 
-                # Cek hasil di masa depan (Maksimal 40 hari trading / 2 bulan)
+                # Cek hasil di masa depan (Maksimal 40 hari trading)
                 future_data = df.iloc[i+1:i+41]
-                outcome = "EXPIRED" # Default jika tidak kena TP/SL dalam 40 hari
+                outcome = "EXPIRED" 
                 profit_loss = 0
                 exit_date = None
+                
+                # Jika tidak ada data masa depan, gunakan harga entry sebagai exit sementara
                 exit_price = future_data.iloc[-1]['Close'] if not future_data.empty else entry_p
 
                 for _, row in future_data.iterrows():
@@ -74,8 +79,8 @@ def run_backtest(mode="SWING"):
                     "mode": mode,
                     "entry_date": df.iloc[i]['Date'],
                     "exit_date": exit_date,
-                    "score": score, # PENTING: Untuk analisa korelasi skor vs winrate
-                    "action": signal['action'], # BUY atau STRONG BUY
+                    "score": score,
+                    "action": action,
                     "entry_price": entry_p,
                     "exit_price": exit_price,
                     "outcome": outcome,
@@ -83,10 +88,9 @@ def run_backtest(mode="SWING"):
                     "reason": signal['reason']
                 })
                 
-                # Lompat 5 hari setelah entry agar tidak spam trade di saham yang sama
-                # (Asumsi kita hold posisi minimal beberapa hari)
-                # Note: Loop 'for' di python range-nya fix, jadi trik i += 5 tidak efektif di sini
-                # tapi logic signal biasanya akan hilang setelah harga bergerak, jadi aman.
+                # Jeda simulasi 5 hari setelah entry agar tidak spamming signal di saham yang sama
+                # Note: Dalam loop for range, variabel i tidak bisa di-skip manual semudah while, 
+                # tapi karena kita mengambil snapshot per hari, sinyal biasanya hilang setelah harga bergerak.
 
     return pd.DataFrame(all_results)
 

@@ -15,7 +15,9 @@ from config.tickers import TICKERS
 
 def run_scanner():
     """
-    Memindai semua ticker menggunakan Stocklens Prime Engine (Scoring System).
+    Memindai ticker dengan Logic Terpisah:
+    - Signals Table: Hanya BUY / STRONG BUY (Data harga pasti lengkap)
+    - Watchlist Search: Semua status (Termasuk DONT BUY / Data harga kosong)
     """
     print(f"=== STOCKLENS PRIME SCANNER [{datetime.now().strftime('%Y-%m-%d %H:%M')}] ===")
     
@@ -24,7 +26,7 @@ def run_scanner():
     market_status = "BULLISH (Safe)" if market_is_bullish else "BEARISH (High Risk)"
     print(f"Market Sentiment: {market_status}")
 
-    # Struktur data untuk file JSON
+    # Struktur data output
     output_data = {
         "metadata": {
             "last_run": datetime.now().isoformat(),
@@ -45,7 +47,6 @@ def run_scanner():
         file_path = data_dir / f"{ticker}.csv"
         
         if not os.path.exists(file_path):
-            # print(f"   ⚠️ {ticker}: Data CSV tidak ditemukan.") # Optional: Uncomment jika ingin lihat log
             continue
             
         try:
@@ -53,30 +54,33 @@ def run_scanner():
             
             # --- Scan Mode SWING ---
             res_swing = analyze_ticker(df, ticker, "SWING", market_bullish=market_is_bullish)
-            # REVISI: Menggunakan 'in' agar 'STRONG BUY' dan 'BUY' sama-sama tertangkap
-            if "BUY" in res_swing['action']: 
+            
+            # FILTER KETAT: Hanya masukkan ke 'signals' jika statusnya benar-benar BUY
+            # "DONT BUY" tidak akan lolos filter ini
+            if res_swing['action'] in ["BUY", "STRONG BUY"]: 
                 output_data['signals']['swing'].append(res_swing)
             
             # --- Scan Mode SCALPING ---
             res_scalp = analyze_ticker(df, ticker, "SCALPING", market_bullish=market_is_bullish)
-            if "BUY" in res_scalp['action']:
+            
+            if res_scalp['action'] in ["BUY", "STRONG BUY"]:
                 output_data['signals']['scalping'].append(res_scalp)
                 
-            # --- Update Watchlist (Untuk Fitur Search & Scoring) ---
+            # --- Watchlist (Untuk Fitur Search) ---
+            # Simpan SEMUA status di sini, agar user bisa cari saham apa saja (termasuk yang DONT BUY)
             output_data['watchlist'].append({
                 "ticker": ticker,
                 "swing_status": res_swing['action'],
-                "swing_score": res_swing.get('score', 0), # Simpan skor
+                "swing_score": res_swing.get('score', 0),
                 "swing_reason": res_swing['reason'],
                 "scalp_status": res_scalp['action'],
-                "scalp_score": res_scalp.get('score', 0), # Simpan skor
+                "scalp_score": res_scalp.get('score', 0),
                 "scalp_reason": res_scalp['reason']
             })
             
-            # Log hanya jika ada sinyal atau status menarik (Score > 50)
-            swing_score = res_swing.get('score', 0)
-            if swing_score >= 50:
-                print(f"   ✅ {ticker}: Scanned (Swing Score: {swing_score})")
+            # Log progress hanya jika ada potensi sinyal (skor > 60)
+            if res_swing.get('score', 0) >= 60:
+                print(f"   🚀 {ticker}: Signal Candidate (Score: {res_swing.get('score', 0)})")
 
         except Exception as e:
             print(f"   ❌ {ticker}: Gagal memproses. Error: {str(e)}")
@@ -89,9 +93,9 @@ def run_scanner():
         json.dump(output_data, f, indent=4)
 
     print(f"\n=== SCAN SELESAI ===")
-    print(f"Sinyal SWING ditemukan    : {len(output_data['signals']['swing'])}")
-    print(f"Sinyal SCALPING ditemukan : {len(output_data['signals']['scalping'])}")
-    print(f"Data disimpan di          : {output_path}")
+    print(f"Sinyal SWING (Valid)    : {len(output_data['signals']['swing'])}")
+    print(f"Sinyal SCALPING (Valid) : {len(output_data['signals']['scalping'])}")
+    print(f"Data disimpan di        : {output_path}")
 
 if __name__ == "__main__":
     run_scanner()
