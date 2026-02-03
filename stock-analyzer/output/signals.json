@@ -1,184 +1,997 @@
 {
-  "generated_at": "2026-02-03T04:51:54.682770Z",
+  "generated_at": "2026-02-03T07:17:15.741001Z",
   "market": "IDX / IHSG",
   "data_source": "yfinance-csv",
   "results": [
     {
       "ticker": "BBRI",
-      "mode": "SWING",
-      "setup": "PULLBACK_EMA20",
-      "action": "BUY",
-      "entry_price": 3830.0,
-      "stop_loss": 3723.0,
-      "target_price": 4096.0,
-      "risk_reward": 2.5,
-      "confidence_score": 75,
-      "reasoning": "Trend Uptrend, Pullback EMA20 (1.7%), RSI 57.0, Rejection: False"
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "BBCA",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "BMRI",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "BBNI",
-      "mode": "SWING",
-      "setup": "PULLBACK_EMA20",
-      "action": "BUY",
-      "entry_price": 4580.0,
-      "stop_loss": 4390.0,
-      "target_price": 5054.0,
-      "risk_reward": 2.5,
-      "confidence_score": 75,
-      "reasoning": "Trend Uptrend, Pullback EMA20 (2.7%), RSI 61.6, Rejection: False"
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "INPC",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "BBYB",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "ANTM",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "ADRO",
-      "mode": "SWING",
-      "setup": "PULLBACK_EMA20",
-      "action": "BUY",
-      "entry_price": 2150.0,
-      "stop_loss": 1990.0,
-      "target_price": 2550.0,
-      "risk_reward": 2.5,
-      "confidence_score": 85,
-      "reasoning": "Trend Uptrend, Pullback EMA20 (-0.3%), RSI 53.6, Rejection: True"
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "PTBA",
-      "mode": "SWING",
-      "setup": "PULLBACK_EMA20",
-      "action": "BUY",
-      "entry_price": 2530.0,
-      "stop_loss": 2406.0,
-      "target_price": 2841.0,
-      "risk_reward": 2.5,
-      "confidence_score": 75,
-      "reasoning": "Trend Uptrend, Pullback EMA20 (2.6%), RSI 61.7, Rejection: False"
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "ITMG",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "BUMI",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "DEWA",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "ARCI",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "CUAN",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "MDKA",
-      "mode": "SWING",
-      "setup": "PULLBACK_EMA20",
-      "action": "BUY",
-      "entry_price": 2930.0,
-      "stop_loss": 2722.0,
-      "target_price": 3449.0,
-      "risk_reward": 2.5,
-      "confidence_score": 85,
-      "reasoning": "Trend Uptrend, Pullback EMA20 (-1.7%), RSI 50.9, Rejection: True"
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "EMTK",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "SCMA",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "BABY",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "IOTF",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "ASII",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "PTRO",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "ZATA",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "OASA",
-      "mode": "SWING",
-      "setup": "PULLBACK_EMA20",
-      "action": "BUY",
-      "entry_price": 390.0,
-      "stop_loss": 293.0,
-      "target_price": 632.0,
-      "risk_reward": 2.5,
-      "confidence_score": 75,
-      "reasoning": "Trend Uptrend, Pullback EMA20 (-0.7%), RSI 51.9, Rejection: False"
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "SURI",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "NAIK",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "CDIA",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
     },
     {
       "ticker": "IRSX",
       "status": "NO_TRADE",
-      "reason": "No valid professional setup found"
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AADI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ADMR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AKRA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AMMN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AMRT",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ARTO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BREN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BRMS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BRPT",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CPIN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DSSA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "EXCL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GOTO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ICBP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "INDF",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "INKP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ISAT",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KLBF",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MEDC",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PGAS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TLKM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "UNTR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "UNVR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ACES",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AVIA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BSDE",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BTPS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BUKA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CMRY",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CTRA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ELSA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ENRG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ERAA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ESSA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "HEAL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "HRTA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "HRUM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "INCO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "INDY",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "INTP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "JPFA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "JSMR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KIJA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KPIG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "LSIP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MAPA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MAPI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MBMA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MIKA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MTEL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MYOR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PANI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PGEO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PNBN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PNLF",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PWON",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "RAJA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "RATU",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SIDO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SMGR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SMRA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SSIA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TAPG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TINS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TKIM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TOWR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "WIFI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TPIA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GZCO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BEEP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "VIVA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DMAS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GEMS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SMMA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AALI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ASLC",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SAPT",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BELI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "LPKR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MPPA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MLPL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SILO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "LPCK",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ABMM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ADMG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ADMS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AGRO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ALII",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "APLN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ASRI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "AUTO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BANK",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BCIC",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BDKR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BEER",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BFIN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BIRD",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BJBR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BJTM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BKSL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BRIS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BSIM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "BVIC",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CARS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CEKA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CLEO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "CNMA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DGNS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DILD",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DOID",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DSNG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "DUTI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "EAST",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "ELIT",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "FILM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "FORU",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GDST",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GJTL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GPRA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GSMF",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GULA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "GWSA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "HAIS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "HATM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "IMPC",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "INET",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "IPTV",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "IRRA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KAYU",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KBLI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KAEF",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KEJU",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "KKGI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "LPPF",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MAIN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MARK",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MBAP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MCAS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "META",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MFIN",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MLPT",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MPMX",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "MTDL",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "NATO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "NEST",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "NZIA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PAMG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PANS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PPRO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "PRAS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "RAAM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "RMKO",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SAME",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SGER",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SMSM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SPMA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "SRTG",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TARA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TAYS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TFAS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TIDR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TIRA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TMAS",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TOBA",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TRIM",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "TYRE",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "UVCR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "VICI",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "VKTR",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "WMPP",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
+    },
+    {
+      "ticker": "WOOD",
+      "status": "NO_TRADE",
+      "reason": "No data found in CSV"
     }
   ]
 }
