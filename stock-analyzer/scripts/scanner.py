@@ -76,9 +76,9 @@ def run_scanner():
         except Exception as e:
             print(f"   ❌ {ticker}: Gagal memproses. Error: {str(e)}")
 
-    # 4. Simpan ke File JSON
-    output_path = ROOT / "data" / "signals.json"
-    os.makedirs(ROOT / "data", exist_ok=True)
+    # 4. Simpan ke File JSON di folder 'output'
+    output_path = ROOT / "output" / "signals.json"
+    os.makedirs(ROOT / "output", exist_ok=True)
     
     with open(output_path, "w") as f:
         json.dump(output_data, f, indent=4)
