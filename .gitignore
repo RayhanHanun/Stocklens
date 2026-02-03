@@ -4,14 +4,25 @@ __pycache__/
 *$py.class
 .env
 venv/
+.python-version
+
+# --- IDE & OS Junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # --- Data & Logs ---
-# Kita mengabaikan semua file CSV karena mereka besar dan berubah tiap hari
+# Mengabaikan folder data mentah karena isinya ratusan file CSV yang berat
 stock-analyzer/data/idx/
-*.csv
+stock-analyzer/data/raw/
 *.log
 
-# --- EXCEPTION ---
-# Kita WAJIB menyimpan file ini karena ini adalah nyawa untuk website Anda
-!stock-analyzer/data/signals.json
+# Mengabaikan semua file CSV secara global agar tidak mengotori repository
+*.csv
+
+# --- EXCEPTIONS (Wajib Disimpan) ---
+# Kita memberikan pengecualian agar file-file ini tetap terunggah ke GitHub
+# karena file ini adalah "nyawa" atau data utama untuk website Anda.
+!stock-analyzer/output/signals.json
 !stock-analyzer/output/backtest_results.csv
