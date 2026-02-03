@@ -1,997 +1,1364 @@
 {
-  "generated_at": "2026-02-03T07:25:01.118856Z",
-  "market": "IDX / IHSG",
-  "data_source": "yfinance-csv",
-  "results": [
-    {
-      "ticker": "BBRI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BBCA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BMRI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BBNI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INPC",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BBYB",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ANTM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ADRO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PTBA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ITMG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BUMI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DEWA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ARCI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CUAN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MDKA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "EMTK",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SCMA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BABY",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "IOTF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ASII",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PTRO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ZATA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "OASA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SURI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "NAIK",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CDIA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "IRSX",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AADI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ADMR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AKRA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AMMN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AMRT",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ARTO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BREN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BRMS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BRPT",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CPIN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DSSA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "EXCL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GOTO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ICBP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INDF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INKP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ISAT",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KLBF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MEDC",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PGAS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TLKM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "UNTR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "UNVR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ACES",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AVIA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BSDE",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BTPS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BUKA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CMRY",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CTRA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ELSA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ENRG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ERAA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ESSA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "HEAL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "HRTA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "HRUM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INCO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INDY",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INTP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "JPFA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "JSMR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KIJA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KPIG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "LSIP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MAPA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MAPI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MBMA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MIKA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MTEL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MYOR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PANI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PGEO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PNBN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PNLF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PWON",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "RAJA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "RATU",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SIDO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SMGR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SMRA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SSIA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TAPG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TINS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TKIM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TOWR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "WIFI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TPIA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GZCO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BEEP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "VIVA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DMAS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GEMS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SMMA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AALI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ASLC",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SAPT",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BELI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "LPKR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MPPA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MLPL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SILO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "LPCK",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ABMM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ADMG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ADMS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AGRO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ALII",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "APLN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ASRI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "AUTO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BANK",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BCIC",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BDKR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BEER",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BFIN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BIRD",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BJBR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BJTM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BKSL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BRIS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BSIM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "BVIC",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CARS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CEKA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CLEO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "CNMA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DGNS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DILD",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DOID",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DSNG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "DUTI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "EAST",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "ELIT",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "FILM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "FORU",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GDST",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GJTL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GPRA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GSMF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GULA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "GWSA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "HAIS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "HATM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "IMPC",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "INET",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "IPTV",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "IRRA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KAYU",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KBLI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KAEF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KEJU",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "KKGI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "LPPF",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MAIN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MARK",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MBAP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MCAS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "META",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MFIN",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MLPT",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MPMX",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "MTDL",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "NATO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "NEST",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "NZIA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PAMG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PANS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PPRO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "PRAS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "RAAM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "RMKO",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SAME",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SGER",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SMSM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SPMA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "SRTG",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TARA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TAYS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TFAS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TIDR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TIRA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TMAS",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TOBA",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TRIM",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "TYRE",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "UVCR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "VICI",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "VKTR",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "WMPP",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    },
-    {
-      "ticker": "WOOD",
-      "status": "NO_TRADE",
-      "reason": "No data found in CSV"
-    }
-  ]
+    "metadata": {
+        "last_run": "2026-02-04T02:15:44.286564",
+        "market_sentiment": "BULLISH (Safe)",
+        "total_tickers_scanned": 198
+    },
+    "signals": {
+        "swing": [],
+        "scalping": []
+    },
+    "watchlist": [
+        {
+            "ticker": "BBRI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BBCA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BMRI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.7x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BBNI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 1.0x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INPC",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BBYB",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ANTM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.6x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ADRO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.6x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PTBA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.7x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ITMG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BUMI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "DEWA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ARCI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.9x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "CUAN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MDKA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.7x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "EMTK",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SCMA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BABY",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "IOTF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "ASII",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.8x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PTRO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ZATA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Belum memenuhi kriteria teknikal Swing",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "OASA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.9x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SURI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "NAIK",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "CDIA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Data kurang",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Data kurang"
+        },
+        {
+            "ticker": "IRSX",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 1.0x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "AADI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Belum memenuhi kriteria teknikal Swing",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ADMR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.6x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "AKRA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.9x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "AMMN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "AMRT",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ARTO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BREN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BRMS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BRPT",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "CPIN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "DSSA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "EXCL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "GOTO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ICBP",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INDF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INKP",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.7x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ISAT",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "KLBF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MEDC",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.6x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PGAS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.9x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TLKM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "UNTR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "UNVR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ACES",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "AVIA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BSDE",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BTPS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BUKA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "CMRY",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.9x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "CTRA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ELSA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Belum memenuhi kriteria teknikal Swing",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ENRG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ERAA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ESSA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "HEAL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "HRTA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Belum memenuhi kriteria teknikal Swing",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "HRUM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INCO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.4x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INDY",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.6x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INTP",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "JPFA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.5x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "JSMR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "KIJA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "KPIG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "LSIP",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MAPA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MAPI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MBMA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MIKA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MTEL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MYOR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PANI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PGEO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PNBN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PNLF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "PWON",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "RAJA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "RATU",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SIDO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SMGR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SMRA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SSIA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TAPG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TINS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TKIM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TOWR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "WIFI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TPIA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "GZCO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "VIVA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "DMAS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.3x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "GEMS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "SMMA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "AALI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ASLC",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BELI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "LPKR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MPPA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MLPL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SILO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "LPCK",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.3x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ABMM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "ADMG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "AGRO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ALII",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "APLN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.2x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "ASRI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "AUTO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BANK",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BCIC",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BDKR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BEER",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BFIN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BIRD",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BJBR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BJTM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.9x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BKSL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BRIS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "BSIM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "BVIC",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.2x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "CARS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "CEKA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "CLEO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "CNMA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "DGNS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "DILD",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "DOID",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "DSNG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "DUTI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "EAST",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "ELIT",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.5x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "FILM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "FORU",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "GDST",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "GJTL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "GPRA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "GSMF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "GULA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Belum memenuhi kriteria teknikal Swing",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "GWSA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "HAIS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "HATM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "IMPC",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "INET",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "IPTV",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "IRRA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "KAYU",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "KBLI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "KAEF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "KEJU",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "KKGI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "LPPF",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.7x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MAIN",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "MARK",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 1.0x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "MBAP",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "MCAS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "META",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "MLPT",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "MPMX",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "MTDL",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "NATO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "NEST",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Pantulan tanpa volume (Vol hanya 0.1x)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "NZIA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "PAMG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "PANS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "PPRO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "PRAS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "RAAM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "RMKO",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Belum memenuhi kriteria teknikal Swing",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SAME",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "SGER",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "SMSM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "SPMA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "SRTG",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TARA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "TAYS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "TFAS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "TIRA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "TMAS",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TOBA",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "TRIM",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "TYRE",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "UVCR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "VICI",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "VKTR",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Trend masih Bearish/Sideways (P < EMA50/200)",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Kondisi Breakout tidak terpenuhi"
+        },
+        {
+            "ticker": "WMPP",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        },
+        {
+            "ticker": "WOOD",
+            "swing_status": "DONT BUY",
+            "swing_reason": "Likuiditas Rendah",
+            "scalp_status": "DONT BUY",
+            "scalp_reason": "Likuiditas Rendah"
+        }
+    ]
 }
