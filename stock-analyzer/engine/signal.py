@@ -1,7 +1,7 @@
 from typing import Any, Dict, Optional
 import pandas as pd
 import numpy as np
-import yfinance as yf # Wajib ada untuk cek IHSG
+import yfinance as yf
 
 # Import Indikator
 from engine.indicators.atr import atr
@@ -11,35 +11,21 @@ from engine.indicators.rsi import rsi
 
 # KONFIGURASI GLOBAL
 MIN_BARS = 100
-MIN_TX_VALUE = 2_000_000_000 # Minimal transaksi 2 Miliar
+MIN_TX_VALUE = 2_000_000_000 # 2 Miliar
 
 def get_ihsg_trend() -> bool:
-    """
-    Mengecek apakah IHSG sedang dalam kondisi Bullish (di atas EMA 200).
-    Digunakan untuk menentukan sentimen market global.
-    """
     try:
-        # Download data IHSG
         df_ihsg = yf.download("^JKSE", period="1y", interval="1d", progress=False)
-        if df_ihsg.empty: return True # Default True jika gagal download agar aman
-        
+        if df_ihsg.empty: return True
         closes = df_ihsg['Close'].tolist()
-        curr_ihsg = closes[-1]
-        
-        # Hitung EMA 200 IHSG
         if len(closes) > 200:
-            ema200_ihsg = ema(closes, 200)[-1]
-            return curr_ihsg > ema200_ihsg
-        else:
-            return True
+            return closes[-1] > ema(closes, 200)[-1]
+        return True
     except:
         return True
 
 def analyze_ticker(df: pd.DataFrame, ticker: str, mode: str, market_bullish: Optional[bool] = None) -> Dict[str, Any]:
-    """
-    Stocklens Prime Engine: Menggunakan Scoring System (0-100).
-    """
-    # 1. VALIDASI DATA & LIKUIDITAS
+    # 1. VALIDASI DATA
     df = df.dropna().copy()
     if len(df) < MIN_BARS:
         return {"ticker": ticker, "mode": mode, "action": "DONT BUY", "reason": "Data kurang"}
@@ -49,9 +35,11 @@ def analyze_ticker(df: pd.DataFrame, ticker: str, mode: str, market_bullish: Opt
     if avg_tx < MIN_TX_VALUE:
         return {"ticker": ticker, "mode": mode, "action": "DONT BUY", "reason": "Likuiditas Rendah"}
 
-    # 2. KALKULASI INDIKATOR
+    # 2. HITUNG INDIKATOR
     closes = df["Close"].tolist()
-    highs, lows, opens = df["High"].tolist(), df["Low"].tolist(), df["Open"].tolist()
+    highs = df["High"].tolist()
+    lows = df["Low"].tolist()
+    opens = df["Open"].tolist()
     current_p = closes[-1]
     
     try:
@@ -63,67 +51,90 @@ def analyze_ticker(df: pd.DataFrame, ticker: str, mode: str, market_bullish: Opt
         curr_rsi = rsi(closes, 14)[-1]
         curr_atr = atr(highs, lows, closes, 14)[-1]
         
-        # Structure Check: Apakah harga di atas High 10 hari lalu?
-        high_10 = max(highs[-11:-1]) 
+        # Structure Check
+        high_10 = max(highs[-11:-1])
         is_breakout = current_p > high_10
     except:
         return {"ticker": ticker, "mode": mode, "action": "DONT BUY", "reason": "Error Indikator"}
 
-    # 3. SCORING SYSTEM (Total 100)
+    # 3. LOGIKA TERPISAH (BRANCHING)
     score = 0
     details = []
+    sl = 0
+    tp = 0
+    
+    # =========================================================
+    # MODE A: SWING (Trend Following - Santai)
+    # =========================================================
+    if mode.upper() == "SWING":
+        # A1. Trend Score (Max 40)
+        # Swing wajib uptrend kuat
+        if current_p > e20 > e50: 
+            score += 40
+            details.append("Perfect Uptrend")
+        elif current_p > e50: 
+            score += 20
+            details.append("Moderate Uptrend")
+            
+        # A2. Volume (Max 30)
+        # Swing butuh volume stabil/konfirmasi
+        if vol_ratio >= 1.2: 
+            score += 30
+            details.append(f"Vol Confirmed ({vol_ratio:.1f}x)")
+        elif vol_ratio >= 1.0:
+            score += 15
+            
+        # A3. Momentum/RSI (Max 30)
+        # Swing suka RSI yang 'sehat' (45-65), bukan yang terlalu panas
+        if 45 <= curr_rsi <= 68: 
+            score += 30
+            details.append("Healthy RSI")
+        elif curr_rsi > 68:
+            score += 10 # Sedikit overbought
+            
+        # Perhitungan Target Swing (Risk Reward 1:2.5)
+        # Stoploss lebih longgar (2x ATR) agar tidak mudah kena gocek
+        sl = current_p - (curr_atr * 2.0)
+        risk = current_p - sl
+        tp = current_p + (risk * 2.5)
 
-    # A. TREND (30 pts)
-    if current_p > e20 > e50:
-        score += 30
-        details.append("Perfect Uptrend")
-    elif current_p > e20:
-        score += 15
-        details.append("Short-term Uptrend")
+    # =========================================================
+    # MODE B: SCALPING (Momentum - Agresif)
+    # =========================================================
+    elif mode.upper() == "SCALPING":
+        # B1. Momentum Score (Max 40)
+        # Scalping suka RSI panas (>60) tanda saham sedang 'lari'
+        if curr_rsi >= 60: 
+            score += 40
+            details.append("Strong Momentum")
+        elif curr_rsi >= 50:
+            score += 20
+            
+        # B2. Volume Spike (Max 40) - WAJIB
+        # Scalping butuh ledakan volume tiba-tiba
+        if vol_ratio >= 1.8: 
+            score += 40
+            details.append(f"Vol Spike ({vol_ratio:.1f}x)")
+        elif vol_ratio >= 1.3:
+            score += 20
+            details.append("Vol Rising")
+            
+        # B3. Price Action (Max 20)
+        # Harga harus di atas EMA 20 (Short term strong)
+        if current_p > e20:
+            score += 20
+            details.append("> EMA20")
+            
+        # Perhitungan Target Scalping (Risk Reward 1:1.5)
+        # Stoploss ketat (1x ATR) untuk main cepat
+        sl = current_p - (curr_atr * 1.0)
+        risk = current_p - sl
+        tp = current_p + (risk * 1.5)
 
-    # B. STRUCTURE (20 pts)
-    if is_breakout:
-        score += 20
-        details.append("New 10-Day High")
-    elif current_p > opens[-1]: # Close > Open (Bullish Candle)
-        score += 10
-        details.append("Bullish Day")
-
-    # C. VOLUME (20 pts)
-    if vol_ratio >= 1.5:
-        score += 20
-        details.append(f"Vol Spike ({vol_ratio:.1f}x)")
-    elif vol_ratio >= 1.2:
-        score += 10
-        details.append(f"Vol Confirmed ({vol_ratio:.1f}x)")
-
-    # D. MOMENTUM (15 pts)
-    if 50 <= curr_rsi <= 75:
-        score += 15
-        details.append("Healthy Momentum")
-    elif curr_rsi > 75:
-        score += 5
-        details.append("Overbought Caution")
-
-    # E. VOLATILITY/RISK (15 pts)
-    # Skor jika jarak ke EMA 20 tidak terlalu jauh (tidak overextended)
-    dist_ema20 = (current_p - e20) / e20
-    if 0 <= dist_ema20 <= 0.03:
-        score += 15
-        details.append("Safe Entry Zone")
-    elif dist_ema20 <= 0.06:
-        score += 7
-        details.append("Moderate Entry Zone")
-
-    # 4. PENENTUAN SINYAL
+    # 4. PENENTUAN STATUS
     action = "DONT BUY"
     if score >= 80: action = "STRONG BUY"
-    elif score >= 65: action = "BUY"
-
-    # Kalkulasi SL & TP (1.5x ATR Risk)
-    sl = current_p - (curr_atr * 1.5)
-    risk = current_p - sl
-    tp = current_p + (risk * 2) # Risk Reward 1:2
+    elif score >= 60: action = "BUY" # Batas bawah sedikit diturunkan agar lebih sensitif
 
     return {
         "ticker": ticker,
@@ -133,5 +144,5 @@ def analyze_ticker(df: pd.DataFrame, ticker: str, mode: str, market_bullish: Opt
         "entry": round(current_p, 0),
         "sl": round(sl, 0),
         "tp": round(tp, 0),
-        "reason": " | ".join(details) if details else "Kriteria tidak terpenuhi"
+        "reason": " | ".join(details) if details else "Low Signal Quality"
     }
