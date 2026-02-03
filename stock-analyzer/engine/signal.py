@@ -1,6 +1,7 @@
 from typing import Any, Dict, Optional
 import pandas as pd
 import numpy as np
+import yfinance as yf # Wajib ada untuk cek IHSG
 
 # Import Indikator
 from engine.indicators.atr import atr
@@ -12,7 +13,32 @@ from engine.indicators.rsi import rsi
 MIN_BARS = 100
 MIN_TX_VALUE = 2_000_000_000 # Minimal transaksi 2 Miliar
 
+def get_ihsg_trend() -> bool:
+    """
+    Mengecek apakah IHSG sedang dalam kondisi Bullish (di atas EMA 200).
+    Digunakan untuk menentukan sentimen market global.
+    """
+    try:
+        # Download data IHSG
+        df_ihsg = yf.download("^JKSE", period="1y", interval="1d", progress=False)
+        if df_ihsg.empty: return True # Default True jika gagal download agar aman
+        
+        closes = df_ihsg['Close'].tolist()
+        curr_ihsg = closes[-1]
+        
+        # Hitung EMA 200 IHSG
+        if len(closes) > 200:
+            ema200_ihsg = ema(closes, 200)[-1]
+            return curr_ihsg > ema200_ihsg
+        else:
+            return True
+    except:
+        return True
+
 def analyze_ticker(df: pd.DataFrame, ticker: str, mode: str, market_bullish: Optional[bool] = None) -> Dict[str, Any]:
+    """
+    Stocklens Prime Engine: Menggunakan Scoring System (0-100).
+    """
     # 1. VALIDASI DATA & LIKUIDITAS
     df = df.dropna().copy()
     if len(df) < MIN_BARS:
@@ -66,10 +92,10 @@ def analyze_ticker(df: pd.DataFrame, ticker: str, mode: str, market_bullish: Opt
     # C. VOLUME (20 pts)
     if vol_ratio >= 1.5:
         score += 20
-        details.append(f"Volume Spike ({vol_ratio:.1f}x)")
+        details.append(f"Vol Spike ({vol_ratio:.1f}x)")
     elif vol_ratio >= 1.2:
         score += 10
-        details.append(f"Volume Confirmation ({vol_ratio:.1f}x)")
+        details.append(f"Vol Confirmed ({vol_ratio:.1f}x)")
 
     # D. MOMENTUM (15 pts)
     if 50 <= curr_rsi <= 75:
